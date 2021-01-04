@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+a{
+	text-decoration: none;
+}
+
+
+.header{
+	background-color: black;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding: 25px;
+}
+.header ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+
+
+}
+
+.header ul li a{
+	color: white;
+	margin-right: 15px;
+	font-size: 18px;
+
+}
+
+.header ul li a:hover{
+	color: red;
+}
+
+.Newsletter{
+	background-color:#f5f5f5;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.Newsletter h1{
+	color: #2F323A;
+	margin-bottom: 20px;
+	font-weight: 500;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;	    
+}
+.Newsletter p{
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.input-1{
+	width: 25%;
+	padding: 18px;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+.input-2{
+	width: 30%;
+	padding: 18px;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+.input-3{
+	width: 12%;
+	padding: 18px;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+}
+
+.input-3:hover{
+	background-color: tomato;
+	border: 1px solid tomato;
+	cursor: pointer;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container2{
+	width: 1140px;
+	margin: auto;
+
+	}
+
+.LetsTalk {
+	background-color: #eee;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.LetsTalk h1{
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+
+.LetsTalk p{
+	font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-4{
+	width: 25%;
+	padding: 18px;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+.input-5{
+	width: 25%;
+	padding: 18px;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+.input-6{
+	width: 25%;
+	padding: 18px;
+	background-color: transparent;
+	border: 1px solid black;
+	margin-top: 10px;
+}
+
+.input-7{
+	width: 25%;
+	padding: 18px;
+	background-color: transparent;
+	border: 1px solid black;
+	margin-top: 10px;
+}
+.textarea{
+	margin: 10px;
+    padding: 18px;
+    background-color: #eee;
+	}
+.btn{
+	margin-left: -530px;
+	padding: 18px;
+	color: #fff;
+	background-color: #000;
+	border: none;
+}
+
+/******* footer part********/
+.footer{
+	background-color: #000;
+	width: 100%;
+	padding: 80px 0px;
+}
+
+/******** footer menu*******/
+
+.col h4{
+	color: #FFF;
+    font-family: 'Poppins', sans-serif;
+	margin-bottom: 20px;
+	font-weight: 700px;
+	margin-bottom: 20px;
+}
+
+.col .menu ul li a{
+	color: #CECECE;
+	line-height: 24px;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.footer-menu{
+	display: flex;
+	justify-content: space-around;
+}
+
+hr{
+	background: #CECECE;
+    height: 1px;
+    margin: 40px 0;
+}
+
+.footer-bottom ul li{
+	list-style: none;
+	display: inline-block;
+	border-right: 2px solid #CECECE;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.footer-bottom ul li a{
+	color: #CECECE;
+	line-height: 24px;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.last{
+	border-right: 0px !important;
+}
+.footer-bottom p{
+	color: #CECECE;
+	font-size: 16px;
+	margin: 20px 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.social-icon ul li a i{
+	color: white;
+	height: 40px;
+	width: 40px;
+	background: tomato;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100%;
+	border: 2px solid black;
+	transition: 0.4s ease-in-out;
+}
+
+.social-icon ul li a i:hover{
+	border: 2px solid tomato;
+	background-color: transparent;
+	transform: scale(1.3);
+	transform: rotate(360deg);
+	color: tomato;
+	transition: 0.4s ease-in-out;
+
+}
